@@ -116,8 +116,6 @@ $string['syncenrolmentstask'] = 'Synchronise fee enrolments task';
 $string['syncenrolmentstask'] = 'Úloha synchronizace zápisu po platbě';
 ```
 
-$string['syncenrolmentstask'] = 'Úloha synchronizace zápisu po platbě';
-
-- In the file `/moodle/enrol/fee/version.php` incriement parameter `$plugin->version` at least by one.
+- In the file `/moodle/enrol/fee/version.php` incriement parameter `$plugin->version` at least by one. This is IMPORTANT, becasu without this change, the moodle will not update the enrol fee plugin.
 
 - Now go to the administration of moodle and update your moodle database.
