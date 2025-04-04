@@ -111,7 +111,7 @@ $tasks = [
 $string['syncenrolmentstask'] = 'Synchronise fee enrolments task';
 ```
 
-- (Optional) `/moodledata/lang/[your language, e.g. 'cz']/enrol_fee.php` add following line (and change the  `'Synchronise fee enrolments task'` to your translation) if you want to see the translation in your used language on your application.
+- (Optional) `/moodledata/lang/[your language, e.g. 'cz']/enrol_fee.php` add following line (and change the  `'Úloha synchronizace zápisu po platbě'` to your translation) if you want to see the translation in your used language on your application.
 ```php
 $string['syncenrolmentstask'] = 'Úloha synchronizace zápisu po platbě';
 ```
